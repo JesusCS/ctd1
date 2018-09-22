@@ -5,9 +5,10 @@
 
 
 # output an integer
+puts x = 64
 
 # output the number of seconds in a week
-puts 1+1
+puts 60*60*24*7
 
 
 # output a float
@@ -15,7 +16,10 @@ puts 1+1
 
 
 # output a string
-
+puts name = "Jesus"
 
 
 # output concatination of strings
+ puts "What is your name?"
+ name1 = gets.chomp
+puts "Hi my name is " + name1
